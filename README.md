@@ -40,9 +40,9 @@ Additional heuristics can be introduced to better constrain proposed road connec
 
 ## References
 
-[1] Brelsford, Christa Martin, Taylor & Bettencourt, Lu ́ıs. (2017). Optimal reblocking as a practical tool for neighborhood development. Environ- ment and Planning B: Urban Analytics and City Science.
+[1] Brelsford, Christa Martin, Taylor & Bettencourt, Luis. (2017). "Optimal reblocking as a practical tool for neighborhood development," Environment and Planning B: Urban Analytics and City Science.
 
-[2] G.ClarkeandJ.R.Wright,“Schedulingofvehicleroutingproblemfrom a central depot to a number of delivery points,” Operations Research, 12, 568-581, 1964.
+[2] G.Clarke and J.R.Wright, “Scheduling of vehicle routing problem from a central depot to a number of delivery points,” Operations Research, 12, 568-581, 1964.
 
 [3] B. Gillett and L. Miller, “A heuristic algorithm for the vehicle dispatch problem,” Operations Research, 22, 340-349, 1974.
 
