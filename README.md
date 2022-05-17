@@ -11,7 +11,9 @@ Consider the example in Brelsford et al. (2018) [1] in which the city of Harare 
 
 ![alt text](https://github.com/johnyangyue/tsp-based-urban-planning/blob/b41bdefcebbc0d6c43812684eb976846bd2a65c7/figs/tsp_sample_init.png)
 
-Given a network of nodes and vertices, suppose we treat the optimization task as a traveling salesman problem. And we measure the performance of a network using the minimum total traveling distance of an agent whose goal is to visit all nodes without repetition and return to the starting node. In an idealistic world where we don’t have any budget or regulatory constraints, information about existing network is redundant. We only need the location of all relevant nodes and the corresponding distance matrix (e.g. measured by Euclidean distances). Since the dimension of our toy example is low, we construct a brute force algorithm that calculate the total travel distance for all possible networks and yield the one with the shortest distance. Then, we can compare the optimal solution to existing network, and simply add/improve the connections and do not yet exist. On the left hand side of Fig. 3, we have the global best network that corresponds to the shortest total travel distance for an agent who wants to visit all nodes without repetition. On the right hand side, we merge the solution with existing network, and conclude that connection A-H, A-E, B-F, C-G, D-G, D-H should be added on top of the existing network.
+Given a network of nodes and vertices, suppose we treat the optimization task as a traveling salesman problem. And we measure the performance of a network using the minimum total traveling distance of an agent whose goal is to visit all nodes without repetition and return to the starting node. In an idealistic world where we don’t have any budget or regulatory constraints, information about existing network is redundant. We only need the location of all relevant nodes and the corresponding distance matrix (e.g. measured by Euclidean distances). Since the dimension of our toy example is low, we construct a brute force algorithm that calculate the total travel distance for all possible networks and yield the one with the shortest distance. Then, we can compare the optimal solution to existing network, and simply add/improve the connections and do not yet exist. On the left hand side of the figure below, we have the global best network that corresponds to the shortest total travel distance for an agent who wants to visit all nodes without repetition. On the right hand side, we merge the solution with existing network, and conclude that connection A-H, A-E, B-F, C-G, D-G, D-H should be added on top of the existing network.
+
+![alt text](https://github.com/johnyangyue/tsp-based-urban-planning/blob/4aba539d86f89e4085e0fa27a3c716ad4f7c2c59/figs/tsp_unconstrained.png)
 
 ## Constrained Problem
 
@@ -24,4 +26,10 @@ Moving one step closer to a more realistic application, consider the constraint 
 • Run the traveling salesman algorithm and get the optimal network and the total travel distance.
 
 • Choose the 2 candidate pairs that have the shortest total travel distance as the problem solution.
+
+![alt text](https://github.com/johnyangyue/tsp-based-urban-planning/blob/4aba539d86f89e4085e0fa27a3c716ad4f7c2c59/figs/tsp_constrained.png)
+
+The figure above shows the constrained problem solution in the context of our toy example. If only 2 new connections can be added, the node pairs we should connect that yield the shortest total travel distance are B-F and C-G.
+
+
 
