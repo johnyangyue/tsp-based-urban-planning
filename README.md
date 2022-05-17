@@ -9,5 +9,5 @@ method. In this project, we provide a simple example to demonstrate the viabilit
 
 Consider the example in Brelsford et al. (2018) [1] in which the city of Harare tries to improve the infrastructure access of a slum. We morph the problem into “finding the best place(s) to build/upgrade roads to improve the connectivity between the inner loop (slum,red) and the outer loop (highway,green), illustrated in Fig. 2. Let the black dotted lines represent road connections that do not currently exist, or in dire need of upgrades. We want to search for the best selection of the dotted lines to maximize some measure of connectivity.
 
-![alt text](https://github.com/johnyangyue/tsp-based-urban-planning/blob/b41bdefcebbc0d6c43812684eb976846bd2a65c7/figs/tsp_sample_init.png)
+![Initial Road Layout](https://github.com/johnyangyue/tsp-based-urban-planning/blob/b41bdefcebbc0d6c43812684eb976846bd2a65c7/figs/tsp_sample_init.png)
 
