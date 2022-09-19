@@ -20,7 +20,7 @@ Moving one step closer to a more realistic application, consider the constraint 
 
 • For each node pair in the distance matrix, set it as the true distance measure (e.g. Euclidean distance) if the corresponding nodes are currently well-connected (roads that exist and don’t need upgrades). Otherwise (roads that don’t exist or roads that exists but could use some upgrades), assign a extremely high (relative to the true distance measures) value to it.
 
-• For each 2 candidate connections, change their cor- responding values in the distance matrix to the post- construction values.
+• For each 2 candidate connections, change their corresponding values in the distance matrix to the post- construction values.
 
 • Run the traveling salesman algorithm and get the optimal network and the total travel distance.
 
